@@ -1,0 +1,219 @@
+
+.container{
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+   
+    margin: 0 15px;
+    margin-left:700px;
+    padding: 7px 7px;
+    border-radius: 10px;
+}
+.container .skill-box{
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-box.title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    margin-top: 6px;
+    background: rgba(12, 11, 11, 0.1);
+}
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    background: blue;
+    border-radius: 10px;
+    background: #4070f4;
+    animation: progress 2s ease-in-out forwards;
+
+}
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+}
+.skill-per .tootip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    background: #4070f4;
+    font-size: 9px;
+    font-weight: 500;
+    padding:2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+}
+.tootip::before{
+    position: absolute;
+    left: 50%;
+    content: '';
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    background-color: #4070f4;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+
+}
+.me{
+    margin-top: -50px;
+    text-align: end;
+}
+
+
+
+
+.containe{
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    
+    margin: 0 15px;
+    margin-left:700px;
+    padding: 7px 7px;
+    border-radius: 10px;
+}
+.containe .skill-bo{
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-bo.titl{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.skill-bo .skill-ba{
+    height: 8px;
+    width: 100%;
+    margin-top: 6px;
+    background: rgba(12, 11, 11, 0.1);
+}
+.skill-ba .skill-pe{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 75%;
+    background: blue;
+    border-radius: 10px;
+    background: #4070f4;
+    animation: progress 2s ease-in-out forwards;
+
+}
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+}
+.skill-pe .tooti{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    background: #4070f4;
+    font-size: 9px;
+    font-weight: 500;
+    padding:2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+}
+.tooti::before{
+    position: absolute;
+    left: 50%;
+    content: '';
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    background-color: #4070f4;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+
+}
+.me{
+    margin-top: -50px;
+    text-align: end;
+}
+
+.contain{
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+
+    margin: 0 15px;
+    margin-left:700px;
+    padding: 7px 7px;
+    border-radius: 10px;
+}
+.contain .skill-b{
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-b.tit{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.skill-b .skill-b{
+    height: 8px;
+    width: 100%;
+    margin-top: 6px;
+    background: rgba(12, 11, 11, 0.1);
+}
+.skill-b .skill-p{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 25%;
+    background: blue;
+    border-radius: 10px;
+    background: #4070f4;
+    animation: progress 2s ease-in-out forwards;
+
+}
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+}
+.skill-p .toot{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    background: #4070f4;
+    font-size: 9px;
+    font-weight: 500;
+    padding:2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+}
+.toot::before{
+    position: absolute;
+    left: 50%;
+    content: '';
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    background-color: #4070f4;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+
+}
+.me{
+    margin-top: -50px;
+    text-align: end;
+}

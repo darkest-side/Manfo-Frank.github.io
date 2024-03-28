@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+:root::after{
+    align-content: center;
+    content: "MY SKILLS";
+    top: 1px;
+    color: rgb(36, 31, 31);
+    position: absolute;
+    z-index: -1;
+    font-size: 100px; 
+    left: 350px; 
+    letter-spacing: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-decoration-color: goldenrod;
+}
+h1{
+    margin-top: 50px;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.foot{
+     color: antiquewhite;
+}
+.navbar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+.logo{
+    font-size: 35px;
+}
+li a{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-right: 25px;
+}

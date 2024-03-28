@@ -1,0 +1,70 @@
+.it {
+ color: yellow;
+
+}
+h1{
+   font-size: 50px;
+   margin-top: 100px;
+   padding-left: 200px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: black;
+}
+body {
+    opacity: 1; background-image:url(mountain/mountain.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* we need to see how to edit the background*/
+
+    
+}
+p {
+    padding-left: 200px;
+    font-style: italic;
+    color: #000;
+    size: 300px;
+    font-weight: bolder;
+}
+.navbar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+.logo{
+    font-size: 35px;
+}
+li a{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-right: 25px;
+}
+.#{ 
+
+    text-decoration: aliceblue;
+}
+.get {
+    height: 20px;
+    padding-left: 10px;
+}
+.tif{
+    padding-left: 500px;
+    color: #000;
+}
+.one{
+    padding-left: 20px;
+    color: #000;
+}
+.two{
+    padding-left: 20px;
+    color: red;
+}
+.three{
+    padding-left: 20px;
+    color:green;
+}
+.ther{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
